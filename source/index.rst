@@ -1,4 +1,4 @@
-.. fanli-doc documentation 
+.. fanliapi documentation 
 
 返利网商城合作
 =================
@@ -10,9 +10,7 @@
 
 .. toctree::
     :maxdepth: 2
-    :caption: Contents:
 
-
-* :ref:`begin`
-* :ref:`doc`
-* :ref:`faq`
+    begin
+    doc
+    faq
