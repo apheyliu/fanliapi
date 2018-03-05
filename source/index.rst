@@ -1,20 +1,18 @@
-.. fanliapi documentation master file, created by
-   sphinx-quickstart on Mon Mar  5 11:02:26 2018.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. fanli-doc documentation 
 
-Welcome to fanliapi's documentation!
-====================================
+返利网商城合作
+=================
+
+返利网合作技术文档是返利网提供给合作商城的技术接入通用模板，基于该文档，可实现商城的CPS、CPN等模式的合作。
+
+.. note::
+    此文档为通用合作模式，根据具体的合作内容可能会略有调整。
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+* :ref:`begin`
+* :ref:`doc`
+* :ref:`faq`
