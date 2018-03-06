@@ -14,6 +14,6 @@
     begin
     doc
     docp2p
+    dev
     test
     faq
-    
