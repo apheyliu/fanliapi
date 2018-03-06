@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'返利网对接文档'
+project = u'返利网对接'
 copyright = u'2018, fanli.com'
 author = u'lhb'
 
