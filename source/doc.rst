@@ -97,7 +97,7 @@ B2C对接文档v4.5
 
  返利网通过商家提供的订单查询接口，实时获取到属于返利网推广的订单数据。示例::
 
-   http://www.shop.com/queryOrder?channel_id=51fanli&begin_date=2013-08-01%2014:00:00&end_date=2013-08-01%2015:00:00&order_id=a12345678&date_type=update
+   http://www.shop.com/queryOrder?begin_date=2013-08-01%2014:00:00&end_date=2013-08-01%2015:00:00&order_id=a12345678&date_type=update
 
 .. _doc_order_query_param:
 
