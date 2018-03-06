@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'fanliapi'
-copyright = u'2018, lhb'
+copyright = u'2018, fanli.com'
 author = u'lhb'
 
 # The short X.Y version

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orders version="4.0">
+  <order>
+    <s_id>12345</s_id>
+    <order_id_parent>2017071212345</order_id_parent>
+    <order_id>2017071212345</order_id>
+    <order_time>2017-07-12 16:07:56</order_time>
+    <uid>6</uid>
+    <uname>6@51fanli</uname>
+    <tc>abc1234</tc>
+    <pay_time>2017-07-12 16:07:56</pay_time>
+    <status>0</status>
+    <locked/>
+    <lastmod>2017-07-12 16:07:56</lastmod>
+    <is_newbuyer>1</is_newbuyer>
+    <platform>2</platform>
+    <remark/>
+    <extension>
+      <reg_time>2017-06-16 21:45:00</reg_time>
+      <moblie>13012345678</moblie>
+    </extension>
+    <products>
+      <product>
+        <pid>12345678</pid>
+        <title><![CDATA[泰国进口百香果 西番莲12个装 单果70-90克]]></title>
+        <category>12</category>
+        <category_title>进口水果</category_title>
+        <url>http://www.shop.com/product/12345678.html</url>
+        <num>2</num>
+        <price>20.00</price>
+        <real_pay_fee>35.00</real_pay_fee>
+        <refund_num/>
+        <commission>7.50</commission>
+        <comm_type>A</comm_type>
+        <extension>
+          <data1>扩展属性1</data1>
+          <data2>扩展属性2</data2>
+        </extension>
+      </product>
+    </products>
+  </order>
+</orders>

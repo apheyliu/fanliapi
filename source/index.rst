@@ -13,4 +13,6 @@
 
     begin
     doc
+    docp2p
+    test
     faq
