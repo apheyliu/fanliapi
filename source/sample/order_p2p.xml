@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<orders version="4.0">
+  <order>
+    <s_id>12345</s_id>
+    <order_id_parent>4045d9f372f74bd</order_id_parent>
+    <order_id>4045d9f372f74bd</order_id>
+    <order_time>2017-07-12 16:03:39</order_time>
+    <uid>6</uid>
+    <uname>5346e51e45594</uname>
+    <tc>abc123</tc>
+    <pay_time>2017-07-12 16:03:39</pay_time>
+    <status>2</status>
+    <locked/>
+    <lastmod>2017-07-12 16:04:07</lastmod>
+    <is_newbuyer>1</is_newbuyer>
+    <platform>2</platform>
+    <remark/>
+    <extension>
+      <!--注册时间-->
+	  <reg_time>2017-06-16 21:45:00</reg_time>
+      <!--注册手机号-->
+	  <moblie>13012345678</moblie>
+    </extension>
+    <products>
+      <product>
+        <pid>947722765491415</pid>
+        <title><![CDATA[第2017期企业周转贷]]></title>
+        <category>A</category>
+        <category_title>企业贷</category_title>
+        <url>http://www.shop.com/detail/947722765491415</url>
+        <!--投标的份数及每份的单价-->
+        <num>1</num>
+        <price>10000</price>
+        <!--该投标用来结算佣金的总价,计算规则依赖商务合作协议-->
+        <real_pay_fee>10000</real_pay_fee>
+        <refund_num>0</refund_num>
+        <commission>300</commission>
+        <comm_type>B</comm_type>
+        <extension>
+          <!--投资期限,*整数,*单位天-->
+          <time_limit>90</time_limit>
+          <!--年化收益率,*小数格式-->
+          <annual_yield>0.118</annual_yield>
+          <!--投标使用的红包金额-->
+          <coupon>40</coupon>
+          <!--加息-->
+          <raise_interest>0.01</raise_interest>
+        </extension>
+      </product>
+    </products>
+  </order>
+</orders>
