@@ -254,12 +254,16 @@ B2C对接文档
  .. note::
     * 是否进行快捷登录合作，以商务和产品约定为准。
 
+.. _doc_unionlogin_sample:
+
 接口示例
 ^^^^^^^^^^^
 
   ::
 
    http://www.shop.com/fanli?uid=6&target_url=xxx&tc=abc123&tracking_id=12345&action_time=1294820691&code=d7b6e7b74aea236623ea1aa6830f6360&syncname=true&uname=6@51fanli&usersafekey=849b59ee2e3af476
+
+.. _doc_unionlogin_param:
 
 参数说明
 ^^^^^^^^^^^^
@@ -277,13 +281,17 @@ B2C对接文档
  .. important::
     * uname格式为12345@51fanli形式，如果商家系统不允许使用@特殊字符，可自行转换；
     * **快捷登录接口中的code计算方式与非快捷登录的不同**；
- 
+
+.. _doc_unionlogin_liucheng:
+
 快捷登录流程
 ^^^^^^^^^^^^^^
 
 .. image:: images/unionlogin.png
    :align: right
    :scale: 50 %
+
+.. _doc_unionlogin_yueding:
 
 重要约定
 ^^^^^^^^^^^^^
