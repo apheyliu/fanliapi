@@ -8,11 +8,21 @@
 
 .. _faq_demo_java:
 
-订单推送示例Java
+推单示例Java
 ^^^^^^^^^^^^^^^^
 
 .. literalinclude:: /sample/push.java
    :language: java
+
+
+.. _faq_demo_php:
+
+推单示例PHP
+^^^^^^^^^^^^^^^^
+
+.. literalinclude:: /sample/push.php
+   :language: PHP
+
 
 .. _faq_order:
 
