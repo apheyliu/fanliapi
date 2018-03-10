@@ -2,24 +2,28 @@
 <orders version="4.0">
   <order>
     <s_id>12345</s_id>
-    <order_id_parent>4045d9f372f74bd</order_id_parent>
     <order_id>4045d9f372f74bd</order_id>
     <order_time>2017-07-12 16:03:39</order_time>
+    <!--uid/tc为返利网跟踪参数-->
     <uid>6</uid>
-    <uname>5346e51e45594</uname>
     <tc>abc123</tc>
-    <pay_time>2017-07-12 16:03:39</pay_time>
+    <!--投标状态-->
     <status>2</status>
-    <locked/>
+    <!--投标状态最后更新时间-->
     <lastmod>2017-07-12 16:04:07</lastmod>
+    <!--是否首投（商务意义上的首投规则，并非在平台的第一笔投资）-->
     <is_newbuyer>1</is_newbuyer>
+    <!--投标平台1.PC/2.H5/3.APP-->
     <platform>2</platform>
-    <remark/>
     <extension>
       <!--注册时间-->
-	  <reg_time>2017-06-16 21:45:00</reg_time>
+      <reg_time>2017-06-16 21:45:00</reg_time>
       <!--注册手机号-->
-	  <moblie>13012345678</moblie>
+      <moblie>13012345678</moblie>
+      <!--商家用户的返利来源标识,非返利带来的注册为0-->
+      <user_source>1</user_source>
+      <!--商家用户的唯一标示id-->
+      <user_unique_id>1234567</user_unique_id>
     </extension>
     <products>
       <product>
@@ -28,8 +32,7 @@
         <category>A</category>
         <category_title>企业贷</category_title>
         <url>http://www.shop.com/detail/947722765491415</url>
-        <!--投标的份数及每份的单价-->
-        <num>1</num>
+        <!--投标的总金额-->
         <price>10000</price>
         <!--该投标用来结算佣金的总价,计算规则依赖商务合作协议-->
         <real_pay_fee>10000</real_pay_fee>
@@ -37,14 +40,24 @@
         <commission>300</commission>
         <comm_type>B</comm_type>
         <extension>
-          <!--投资期限,*整数,*单位天-->
+          <!--投资期限,整数,单位天-->
           <time_limit>90</time_limit>
-          <!--年化收益率,*小数格式-->
-          <annual_yield>0.118</annual_yield>
-          <!--投标使用的红包金额-->
+          <!--年化收益率,小数格式,0.085表示年化8.5%-->
+          <annual_yield>0.085</annual_yield>
+          <!--投标使用的红包金额,单位元-->
           <coupon>40</coupon>
-          <!--加息-->
+          <!--加息利率,格式同annual_yield-->
           <raise_interest>0.01</raise_interest>
+          <!--回款计划-->
+          <!--回款方式-->
+          <payment_type>等额本息/按月付息/一次性还本付息</payment_type>
+          <!--第一期回款时间-->
+          <payment_time_1>2018-07-12</payment_time_1>
+          <!--第一期回款本金-->
+          <payment_principal_1>5000</payment_principal_1>
+          <!--第一期回款利息及可能的奖励-->
+          <payment_interest_1>200</payment_interest_1>
+          <!--依次循环所有期次,字段名序号递增_2、_3....-->
         </extension>
       </product>
     </products>

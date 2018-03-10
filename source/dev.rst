@@ -67,7 +67,7 @@
 
  .. note::
     * 注意参数urlencode及中文处理 ；
-    * 可使用postman工具进行测试，或参考 :ref:`faq_demo_java` ；
+    * 可使用postman工具进行测试，或参考 :ref:`faq_demo` ；
 
  3、推送后会有 :ref:`doc_order_return` ，如推送成功可在返利网个人中心订单列表中显示订单内容，也可联系返利网技术支持根据订单号查询推送的订单报文详情；
 
