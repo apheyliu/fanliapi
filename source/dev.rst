@@ -99,7 +99,7 @@
     * 指定订单号，不指定查询区间，接口可返回单条订单信息；
 
  .. note::
-    一句话解释：update=1或空，可返回create_time **或** last_modify_time为指定区间的订单；update=0， **仅** 返回create_time为指定区间的订单。
+    一句话解释：update=1或空，可返回 **创建时间(order_time) 或 最后更新时间(lastmod)** 为指定区间的订单；update=0， **仅** 返回 **创建时间** 为指定区间的订单。
 
 .. _dev_union_test: 
 
