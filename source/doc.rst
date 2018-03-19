@@ -174,7 +174,7 @@ B2C对接文档
  locked           int       可选      订单状态是否已锁定不可变更(如已过退货期、交易完成不可退货)，默认为0
  lastmod          datetime  必填      订单状态最后一次变更时间，用以保证多次推送时更新逻辑不产生混乱；
  is_newbuyer      int       必填      是否为商家的新购物用户，见补充说明
- platform         int       必填      订单产生的平台 1:PC平台;2:wap/app移动平台
+ platform         int       必填      订单产生的平台 1:PC;2:H5;3:APP
  remark           string    可选      备注信息 
  products         product   必填      以数组形式存储多个商品product信息
  pid              string    必填      商品编号或SKU
