@@ -36,11 +36,3 @@ B2C订单报文示例
 
  .. literalinclude:: /sample/order.xml
     :language: xml
-
-.. _faq_order_p2p:
-
-P2P订单报文示例
-^^^^^^^^^^^^^^^^^
-
- .. literalinclude:: /sample/order_p2p.xml
-    :language: xml

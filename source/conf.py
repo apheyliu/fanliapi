@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'返利网对接'
-copyright = u'2018, fanli.com'
+copyright = u'2019～2020, fanli.com'
 author = u'lhb'
 
 # The short X.Y version

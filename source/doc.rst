@@ -48,7 +48,7 @@ B2C对接文档
 ^^^^^^^^^^
   ::
 
-   http://www.shop.com/fanli?uid=6&target_url=xxx&tc=abc123&tracking_id=12345&action_time=1294820691&code=d7b6e7b74aea
+   http://～/fanli?uid=6&target_url=xxx&tc=abc123&tracking_id=12345&action_time=1294820691&code=d7b6e7b74aea
 
 .. _doc_jump_param:
 
@@ -95,7 +95,7 @@ B2C对接文档
 
  返利网通过商家提供的订单查询接口，实时获取到属于返利网推广的订单数据。示例::
 
-   http://www.shop.com/queryOrder?begin_date=2013-08-01%2014:00:00&end_date=2013-08-01%2015:00:00&order_id=a12345678&update=1
+   http://～/queryOrder?begin_date=2013-08-01%2014:00:00&end_date=2013-08-01%2015:00:00&order_id=a12345678&update=1
 
 .. _doc_order_query_param:
 
@@ -261,7 +261,7 @@ B2C对接文档
 
   ::
 
-   http://www.shop.com/fanli?uid=6&target_url=xxx&tc=abc123&tracking_id=12345&action_time=1294820691&code=d7b6e7b74aea236623ea1aa6830f6360&syncname=true&uname=6@51fanli&usersafekey=849b59ee2e3af476
+   http://～/fanli?uid=6&target_url=xxx&tc=abc123&tracking_id=12345&action_time=1294820691&code=d7b6e7b74aea236623ea1aa6830f6360&syncname=true&uname=6@51fanli&usersafekey=849b59ee2e3af476
 
 .. _doc_unionlogin_param:
 
