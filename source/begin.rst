@@ -65,5 +65,5 @@
 
 
 
- 如有任何对接疑问，请联系我们 ``cuili.fang@fanli.com`` 。
+ 如有任何对接疑问，请联系我们 ``huabing.liu@fanli.com`` 。
  
